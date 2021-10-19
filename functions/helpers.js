@@ -1,4 +1,4 @@
-const isEven = (num) => Boolean(num % 2); // Test comment
+const isEven = (num) => !Boolean(num % 2);
 
 
 module.exports = {
